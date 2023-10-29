@@ -2,4 +2,6 @@
 
 Espiral Quadrada
 
-Compilando:  gcc -o EspiralQuadradaT(n) EspiralQuadradaT(n).c
+Compilando:  
+
+Θ(n):  gcc -o EspiralQuadradaT(n) EspiralQuadradaT(n).c

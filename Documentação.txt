@@ -1,1 +1,13 @@
+O código possui três funções, calcularCoordenadas, darUmPasso e imprimirCoordenadas.
 
+A função calcularCoordenadas irá calcular as coordenadas da espiral com base em n; A função darUmPasso é a função que move as coordenadas para o próximo ponto da espiral e a função imprimirCoordenadas imprime as coordenadas atuais.
+A main lê o valor de n, chama a função calcularCoordenadas com o valor de n como argumento e retorna 0 para indicar o término do programa.
+
+Função calcularCoordenadas:
+  Inicializa variáveis, incluindo as coordenadas x e y, contadores e variáveis de controle e realiza um loop de 1 até n.A cada iteração, verifica se o ponto atual é um vértice da espiral. Chama a função darUmPasso para mover as coordenadas para o próximo ponto e ajusta as variáveis de controle, como tamanho_do_segmento, indice_da_proxima_curva, etc. Logo ápos, imprime as coordenadas após cada iteração.
+
+Função darUmPasso:
+  Calcula o próximo passo com base no número de vértices já visitados e os passos são determinados com base no valor de quantidade_de_vertices % 4. Os casos 0, 1, 2 e 3 representam as direções para cima, esquerda, baixo e direita, respectivamente. Atualiza as coordenadas x e y de acordo com o passo.
+
+Função imprimirCoordenadas:
+  Imprime as coordenadas x e y no formato "(x, y)".
